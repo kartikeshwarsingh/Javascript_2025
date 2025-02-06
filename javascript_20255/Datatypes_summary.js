@@ -30,6 +30,37 @@ const myFunction = function(){
     console.log("Hello World")
 }
 
-console.log(typeof(myFunction))
-console.log(typeof(heroes))
-console.log(typeof(null))
+// console.log(typeof(myFunction))
+// console.log(typeof(heroes))
+// console.log(typeof(null))
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "singhdesignddotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+// console.log(myYoutubename)
+// console.log(anothername)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+userTwo.upi = "singh@ybl"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+console.log(userOne.upi)
+console.log(userTwo.upi)
