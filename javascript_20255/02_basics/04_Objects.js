@@ -59,10 +59,10 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: Instructor} = course
+const {price: amount} = course
 
 // console.log(courseInstructor)
-console.log(Instructor)
+console.log(amount)
 
 // {
 //     name: "kartik",
