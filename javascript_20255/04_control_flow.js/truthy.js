@@ -20,12 +20,22 @@ Truthy values
 //     console.log("Object is empty")
 // }
 
-// Nullish Coalescing Opeartor (??): null, undefined
+// Nullish Coalescing Opeartor (??): works only for null & undefined
 
 let val1;
 // val1 = 5 ?? 10
+// val1 = null ?? 10
 
-val1 = null ?? 10
+// val1 = undefined ?? 15
+val1 = null ?? 10 ?? 10
 
 
 console.log(val1)
+
+// Ternary Operator
+
+// condition ? true : false
+
+const iceTeaPrice = 100
+
+iceTeaPrice >= 80 ? console.log("Greater than 80") : console.log("Less than 80")
